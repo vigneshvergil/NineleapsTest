@@ -1,9 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Route } from "react-router-dom";
-
 import UserTable from "./userTable";
 import Users from "./users";
-import { checkPropTypes } from "prop-types";
 
 const App = props => {
   const [postState, setPostsState] = useState([]);
